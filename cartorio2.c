@@ -130,7 +130,8 @@ int main() //Corpo do programa
 	    printf("Escolha a opção desejada do menu:\n\n"); //Informção do menu falando para tomar uma decisão e o \n serve para pular linha
 	    printf("\t1 - Registrar nomes\n"); //Decisões,o t1 é usado para pular espaço
 	    printf("\t2 - Consultar nomes\n"); //Decisões, o t2 é usado para pular espaço
-    	printf("\t3 - Deletar nomes\n\n"); //Decisões, o t3 é usado para pular espaço 
+    	printf("\t3 - Deletar nomes\n"); //Decisões, o t3 é usado para pular espaço
+		printf("\t4 - Sair do sistema\n\n"); //opção de sair do sistema 
     	printf("Opção:"); //fim do Menu
 	
 	    scanf("%d", &opcao); //scanf armazena tudo que for digitado antes , no caso aqui, vai armazenar na variável opcao, no caso de variável inteira é %d
@@ -151,6 +152,11 @@ int main() //Corpo do programa
 		    case 3: //Responsável pela chamada de função deletar
 		    deleta(); //Função deletar
 		    break; //Parar o programa
+		    
+		    case 4: //Sair do sistema	
+		    printf("Obrigado por ultilizar nosso sistema!\n");
+		    return 0;
+		    break;
 		
 		    default: //Quando digitar dados inválidos
 		    printf("Essa opção não está disponível!\n"); //Informação ao usuário
