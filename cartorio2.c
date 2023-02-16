@@ -131,7 +131,7 @@ int main() //Corpo do programa
 	    printf("\t1 - Registrar nomes\n"); //Decisões,o t1 é usado para pular espaço
 	    printf("\t2 - Consultar nomes\n"); //Decisões, o t2 é usado para pular espaço
     	printf("\t3 - Deletar nomes\n"); //Decisões, o t3 é usado para pular espaço
-		printf("\t4 - Sair do sistema\n\n"); //opção de sair do sistema 
+		printf("\t4 - Sair do sistema\n"); //opção de sair do sistema 
     	printf("Opção:"); //fim do Menu
 	
 	    scanf("%d", &opcao); //scanf armazena tudo que for digitado antes , no caso aqui, vai armazenar na variável opcao, no caso de variável inteira é %d
